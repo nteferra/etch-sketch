@@ -1,0 +1,65 @@
+.board {
+	width: 800px;
+	height: 800px;
+	display: grid;
+	border: 1px solid black;
+}
+
+.squares {
+	background-color: cornsilk;
+	
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#title {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 38pt;
+	border-bottom: 2px solid gray;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.input {
+	margin-top: 2em;
+	margin-bottom: 2px;
+	display: flex;
+}
+
+button {
+	padding: 1pt 1em;
+	font-size: 12pt;
+	background-color: maroon;
+	color: cornsilk;
+	font-weight: bold;
+	border: solid 1px grey;
+	border-radius: 4px;
+}
+
+#input {
+	font-size: 12pt;
+}
+
+.sketch {
+	width: 15%;
+	mix-blend-mode: color-burn;
+}
+
+#holder {
+	display: flex;
+}
+
+.b-photos {
+	flex-shrink: 2;
+}
